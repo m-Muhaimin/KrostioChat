@@ -770,7 +770,7 @@ export default function App() {
 
       {/* Sleek prompt box static placement at the bottom center of the screen */}
       <footer className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-[#FBFBFA] via-[#FBFBFA]/90 to-transparent z-20">
-        <div className="max-w-xl mx-auto relative">
+        <div className="max-w-2xl mx-auto relative">
 
           {/* Subtle Floating Query Suggestions Panel */}
           <AnimatePresence>
