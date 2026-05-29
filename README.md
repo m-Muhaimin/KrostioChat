@@ -8,7 +8,7 @@
 
 ### 1. Unified Intent Recognition & Prompt Intelligence
 * **Dynamic Query Assistance**: A dedicated **"Surprise Me"** query suger panel floats subtly near the message entry, presenting helpful analytical directions with clean micro-animations.
-* **Semantic Analysis**: Handled server-side by modern Gemini LLM architecture (`gemini-2.5-flash`), classifying intents transparently as either `casual chat` or `data request` with real structured JSON returns.
+* **Semantic Analysis**: Handled server-side by modern Gemini LLM architecture (`gemini-3.5-flash`), classifying intents transparently as either `casual chat` or `data request` with real structured JSON returns.
 
 ### 2. Context-Aware Format Preselection
 When a `data request` intent occurs, KrostChat analyzes the user's raw prompt structure alongside the response payload properties to **automatically activate** the most proportional visual form factor:
@@ -30,4 +30,4 @@ Through our sleek custom UI viewport renderer, users can toggle gracefully betwe
 
 * **Front-end**: React 18 / TypeScript, Vite Bundler, Framer Motion (`motion/react`) for spring-driven micro-interactions, Tailwind CSS (`@theme` v4 integration).
 * **Back-end API**: Express server proxying secure requests, integrating Node's native type-stripping capabilities.
-* **Intelligence Layer**: Google GenAI Node JS SDK (`@google/genai`) utilizing pure JSON schema responses from `gemini-2.5-flash`.
+* **Intelligence Layer**: Google GenAI Node JS SDK (`@google/genai`) utilizing pure JSON schema responses from `gemini-3.5-flash`.
